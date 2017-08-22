@@ -1,0 +1,87 @@
+body{
+  font-size: 16px;
+  font-family: 'oxygen', sans-serif;
+}
+
+
+/* Header */
+
+#header-nav{
+  background-color:#g3f325;
+  border: 0;
+  border-radius: 0;
+}
+
+.container{
+  margin-left: 15px;
+}
+
+.navbar-brand h1{
+  margin: 0;
+  padding: 0;
+  font-size: 30px;
+  line-height: .75;
+  color: #4F1223;
+  font-family: fantasy;
+}
+
+.navbar-brand a:hover{
+  text-decoration: none;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar{
+  border: 1px solid #d21221;
+}
+
+#nav-list{
+  margin: 0 10px;
+}
+
+#collapsable-nav ul{
+  background: #F9CC9D;
+}
+
+#collapsable-nav li{
+  text-align: center;
+}
+
+#main-content{
+  margin: 0 10px 0;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+}
+
+.jumbotron{
+  background: #fff;
+  padding: 0;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+#menu h2{
+  color: #5111FF;
+  text-transform: uppercase;
+  font-weight:bold;
+}
+
+
+#menu-item{
+  background: #eee;
+  height: 1000px;
+  width: 100%;
+}
+
+#menu-item h3{
+  font-size: 20px;
+  padding: 20px 0 5px;
+}
+
+/* media queries */
+
+@media screen and (min-width: 768px){
+  .container .jumbotron{
+    padding: 20px;
+  }
+}
